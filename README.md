@@ -15,12 +15,13 @@ The repertory contains three parts.
 How to use it?   
 
 First: u need to add some frameworks.
-list: 
-      1:CoreGraphics.framework 
-      2:Security.framework
-      3:SystemConfiguration.framework
-      4:CFNetwork.framework
-      5:ImageIO.framework
+
+\nlist:\n 
+      \n1:CoreGraphics.framework \n
+      \n2:Security.framework\n
+      \n3:SystemConfiguration.framework\n
+      \n4:CFNetwork.framework\n
+      \n5:ImageIO.framework\n
 
 Second: u can use Static Library or use AZDownSDK . u need add it to your project.
 
