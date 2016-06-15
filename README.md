@@ -1,16 +1,28 @@
 # AZDownSDK
+
+
+## Introduce
+
+>
 If u want to download a file , u can use it. It also support  Breakpoint Request. so u 
 don't have to worry about the downloading task was be interrupted,next time the downloaded task can not continue to downloading.
 
-AZDownSDK
-
-It use MKNetworkKit (# https://github.com/MugunthKumar/MKNetworkKit) to finish HTTP task.
 
 
-The repertory contains three parts.
+#### AZDownSDK
+
+It use MKNetworkKit v1.0+ (# https://github.com/MugunthKumar/MKNetworkKit) to finish HTTP task. 
+
+
+###### !!!:  MKNetworkKit v1.0+ is base on NSURLConnection.
+
+
+
+The repertory contains two parts.
+
 1:AZDownSDK(source code) 
 2:Sample 
-3:Static libary.
+
 
 How to use it?   
 
@@ -29,10 +41,8 @@ list:
       5:ImageIO.framework
 
 
-Second: u can use Static Library or use AZDownSDK . u need add it to your project.
-
-then u can download anything.
-
 If u want to get more specific method , Plesae see the sample.
 
-    
+
+
+

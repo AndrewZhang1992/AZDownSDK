@@ -54,7 +54,8 @@
 - (void)addDownloadTaskToQueueandDownURL:(NSString *)downURL toSaveFilePath:(NSString *)saveFilePath onDownloadProgress:(AZDownProcess) downProcess onCompletion:(MKNKResponseBlock) responseBlock onError:(MKNKResponseErrorBlock)errorBlock
 {
     BOOL isHave=NO;
-    for (AZDownOperation *oper in self.downloadArray) {
+    NSArray *tempArray = [NSArray arrayWithArray:self.downloadArray];
+    for (AZDownOperation *oper in tempArray) {
         if ([oper.url isEqualToString:downURL]) {
             isHave=YES;
             break;
